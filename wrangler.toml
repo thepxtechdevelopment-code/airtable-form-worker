@@ -1,0 +1,9 @@
+name = "airtable-form-worker"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# Set these in the Cloudflare dashboard → Settings → Variables, NOT here.
+# AIRTABLE_PAT       (mark as Secret)
+# AIRTABLE_BASE_ID   (Text)
+# AIRTABLE_TABLE     (Text)
+# ALLOWED_ORIGIN     (Text — your published Framer site URL)
